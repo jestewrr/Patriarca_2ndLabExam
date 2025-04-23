@@ -54,22 +54,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/create">Create</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/edit">Edit</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index">Tasks</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </nav>
     <div class="py-4 container">
         @yield('content')
